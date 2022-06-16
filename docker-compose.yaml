@@ -1,0 +1,7 @@
+services:
+  postgres:
+    image: postgres:14.3
+    env_file:
+      - local.env
+    ports:
+      - 5432:5432
